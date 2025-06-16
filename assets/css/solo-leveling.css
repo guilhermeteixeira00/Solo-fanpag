@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(120deg, #0f2027, #2c5364 80%);
+    /* background: linear-gradient(120deg, #0f2027, #2c5364 80%); */
     color: #f3f3f3;
     min-height: 100vh;
 }
 
 header {
-    background: linear-gradient(90deg, rgba(20, 20, 40, 0.95) 60%, rgba(0, 195, 255, 0.15));
+    background: linear-gradient(90deg, rgba(20, 20, 40, 0.95) 20%, rgba(0, 195, 255, 0.15));
     box-shadow: 0 2px 16px #000b;
     padding: 40px 0 20px 0;
     text-align: center;
@@ -178,7 +178,6 @@ footer {
     height: 100vh;
     object-fit: cover;
     z-index: -1;
-    opacity: 0.35;
     pointer-events: none;
 }
 
@@ -510,6 +509,7 @@ footer {
         max-width: 98vw;
         padding: 18px 4vw;
         margin: 24px auto;
+        background: rgba(30, 30, 50, 0.39);
     }
 
     .personagens-cards {
@@ -554,6 +554,7 @@ footer {
 
     main {
         padding: 10px 2vw;
+        background: rgba(30, 30, 50, 0.39);
     }
 }
 
@@ -587,6 +588,7 @@ footer {
 
     main {
         padding: 4px 1vw;
+        background: rgba(30, 30, 50, 0.39);
     }
 
     .tabs-personagens {
